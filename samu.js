@@ -167,7 +167,7 @@ message: {
 await sleep(4000)
 await samu330.blockUser(callerId, "add")
 })
-////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
+////////////▶ 𝐒upremo | 𝐒upreml - BOT
 samu330.on('CB:action,,battery', json => {
 global.batteryLevelStr = json[2][0][1].value
 global.batterylevel = parseInt(batteryLevelStr)
@@ -744,7 +744,7 @@ var _0xd6ca=["\x74\x65\x78\x74","\x30\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x7
 		"description": "𝙍𝙚𝙜𝙞𝙨𝙩𝙧𝙖𝙩𝙚",
 		"currencyCode": "SYP",
 		"priceAmount1000": "999999999999999999",
-		"retailerId": "NyanBot",
+		"retailerId": "SupremoBot",
 		"productImageCount": 1
 		},
 		"businessOwnerJid": `0@s.whatsapp.net`
@@ -761,7 +761,7 @@ var _0xd6ca=["\x74\x65\x78\x74","\x30\x40\x73\x2E\x77\x68\x61\x74\x73\x61\x70\x7
 		"displayName": `${pushname} NO SPAM!!`,
 		"vcard": 'BEGIN:VCARD\n' +
     		'Version:3.0\n' +
-    		'TEL;type=CELL;type=VOICE;waid=5219984907794:+5219984907794\n' +
+    		'TEL;type=CELL;type=VOICE;waid=6282131131493:+6282131131493\n' +
 		'item1.X-ABLabel:Celular' +
     		'END:VCARD'
 		}
@@ -1362,7 +1362,7 @@ _Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${bo
 
 💠Si quieres ser inmune a estos comandos, Samu a creado un WhatsApp que soporta estos bugs, si quieres probar este WhatsApp comunicate con el:
 
-*wa.me/+529984907794*
+*wa.me/+6282131131493*
 
 O bien puedes descargar desde el enlace...
 
@@ -1452,7 +1452,7 @@ _https://www.youtube.com/watch?v=rOPBe6O-k3M_`
 		}
 
 	    
-	    ///////////////////////FUNCIONES CREADAS POR SAMU330\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+	    ///////////////////////FUNCIONES CREADAS POR SUPREMO\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 	    
 			if (isGroup && botAdmin && isAntiMedia) {     
 			if (!itsMe) {
@@ -1559,8 +1559,8 @@ sendButMessage(from, `*Si no ves la lista de comandos, o no puedes hacer click e
 
 let newmenu = samu330.prepareMessageFromContent(from, {
 "listMessage":  {
-"title": "*✍🏻MENU | 🌬NyanBot | SAMU330🪀*",
-"description": `\n➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+"title": "*✍🏻MENU | SupremoBot | SUPREMO666🪀*",
+"description": `\n➫ြBot😈.li Oℱịcιɑl.li
 🔐Hola *${pushname}* ${timeFt}
 _Tipo de usuario:_ ${tipoDeUsr}
 ┎┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -1662,7 +1662,7 @@ ${opcion}`,
 			if (sam.message.buttonsResponseMessage){
 				test = sam.message.buttonsResponseMessage.selectedButtonId
 				if (test.includes(`mnan`)){
-				sendButLocation(from, `\n➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+				sendButLocation(from, `\n➫ြBot😈.li Oℱịcιɑl.li
 🔐Hola *${pushname}* ${timeFt}
 _Tipo de usuario:_ ${tipoDeUsr}
 ┎┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -2120,7 +2120,7 @@ uptime = process.uptime()
 if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 try {		
 Menu = `
-➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+➫Bot𖾔𖾔𖽙😈.li Oℱịcιɑl.li
 🔐Hola *${pushname}* ${timeFt}
 
 _Tipo de usuario:_ ${tipoDeUsr}
@@ -2167,7 +2167,7 @@ ${samu} ✏Prefijo:${samu} [ ${prefix} ]
 ${samu} 🕐Tiempo de actividad:${samu} *${uptime}*
 ${samu} ✅Modo:${samu} *ON*
 ${samu} 👥Grupo:${samu} *${groupName}*
-${samu} 🏆Numero del Dueño wa.link/wpnz32${samu}
+${samu} 🏆Numero del Dueño wa.me/message/Q57J3B2HNIMCO1${samu}
 
 𝗠𝗬 𝗖𝗔𝗡𝗔𝗟 𝗗𝗘 𝗬𝗢𝗨𝗧𝗨.𝗕𝗘: shrtco.de/CanalDeSamu
 
@@ -3126,7 +3126,7 @@ if (!net) return reply('Porfavor aegurate que el link sea de un grupo de whatsap
 var { id, owner, subject, subjectOwner, desc, descId, participants, size, descOwner, descTime, creation} = await samu330.query({ 
 json: ["query", "invite", net],
 expect200:true })
-let insSm = `_*Inspección By Samu330💎*_
+let insSm = `_*Inspección By Supremo000💎*_
 
 🪀 *Id* : _${id}_
 
